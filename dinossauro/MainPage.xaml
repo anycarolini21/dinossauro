@@ -1,42 +1,41 @@
-﻿﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="dinossauro.MainPage">
+             x:Class="dinossauro.MainPage"
+             Shell.NavBarIsVisible="False">
+    <Grid>
+        <HorizontalStackLayout x:Name="HSLayer1">
+            <Image Aspect="Fill"
+                   Source="fundotres.jpg"/>
+             <Image Aspect="Fill"
+                   Source="fundotress.jpg"/>
+           <Image Aspect="Fill"
+                   Source="fundotres.jpg"/>
 
-  <Grid>
-    <HorizontalStackLayout x:Name="HSLayer1">
-      <Image Source="florestatres.jpg"
-             Aspect="Fill"/>
-      <Image Source="florestatres.jpg"
-             Aspect="Fill"/>
-      <Image Source="florestatres.jpg"
-             Aspect="Fill"/>
-    </HorizontalStackLayout>
+        </HorizontalStackLayout>
 
-    <HorizontalStackLayout x:Name="HSLayer2">
-      <Image Source="florestadois.jpg"
-             HorizontalOptions="End"
-             VerticalOptions="End"/>
-      <Image Source="florestadois.jpg"
-             HorizontalOptions="End"
-             VerticalOptions="End"/>
-      <Image Source="florestadois.jpg"
-             HorizontalOptions="End"
-             VerticalOptions="End"/>
-    </HorizontalStackLayout>
+        <HorizontalStackLayout x:Name="floresta2">
+            <Image  HorizontalOptions="End"
+                    VerticalOptions="End"
+                    Source="florestadois.jpg"/>
+            <Image  HorizontalOptions="End"
+                    VerticalOptions="End"
+                    Source="florestadois.jpg"/>
+            <Image  HorizontalOptions="End"
+                    VerticalOptions="End"
+                    Source="florestadois.jpg"/>
+        </HorizontalStackLayout>
 
-    <HorizontalStackLayout x:Name="HSLayer3">
-      <Image Source="chao.png"
-             HorizontalOptions="End"
-             VerticalOptions="End"/>
-      <Image Source="chao.png"
-             HorizontalOptions="End"
-             VerticalOptions="End"/>
-      <Image Source="chao.png"
-             HorizontalOptions="End"
-             VerticalOptions="End"/>
-    </HorizontalStackLayout>
-
-  </Grid>
-
+        <HorizontalStackLayout x:Name="chao3">
+            <Image  HorizontalOptions="End"
+                    VerticalOptions="End"
+                    Source="chao.png"/>
+            <Image  HorizontalOptions="End"
+                    VerticalOptions="End"
+                    Source="chao.png"/>
+            <Image  HorizontalOptions="End"
+                    VerticalOptions="End"
+                    Source="chao.png"/>
+        </HorizontalStackLayout>
+    </Grid>
 </ContentPage>
