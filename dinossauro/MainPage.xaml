@@ -37,5 +37,16 @@
                     VerticalOptions="End"
                     Source="chao.png"/>
         </HorizontalStackLayout>
+
+              <ff:CachedImageView 
+              
+                 CacheType="All"
+                 CacheDuration="365"
+                 x:Name="imgPlayer"
+                 Margin="10,0,0,80"
+                 HeightRequest="250"
+                 WidthRequest="200"
+                 HorizontalOptions="Start"
+                 VerticalOptions="End"/>
     </Grid>
 </ContentPage>
