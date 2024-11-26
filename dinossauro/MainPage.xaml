@@ -4,6 +4,10 @@
              x:Class="dinossauro.MainPage"
              Shell.NavBarIsVisible="False">
     <Grid>
+              <Grid.GestureRecognizers>
+                     <TapGestureRecognizer Tapped="OnGridClicked"/>
+              </Grid.GestureRecognizers>
+              
         <HorizontalStackLayout x:Name="HSLayer1">
             <Image Aspect="Fill"
                    Source="fundotres.jpg"/>
